@@ -1,0 +1,45 @@
+
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    margin-left: 45%;
+    
+}
+li{
+    padding: 2px;
+}
+li{
+  
+    list-style: none;
+}
+aside{
+padding-left: 100px;
+text-align: center;
+
+
+}
+table{
+    border: 2px solid;
+    border-style: solid;
+}
+table img{
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+main{
+  padding-left: 100px;
+  padding-right: 300px;
+  align-items: center;
+}
+
+.flex{
+display: flex;
+}
