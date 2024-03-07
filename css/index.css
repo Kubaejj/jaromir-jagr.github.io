@@ -28,6 +28,7 @@ text-align: center;
 table{
     border: 2px solid;
     border-style: solid;
+    align-items: center;
 }
 table img{
     height: 200px;
@@ -42,4 +43,22 @@ main{
 
 .flex{
 display: flex;
+}
+th, td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 20px;
+}
+td{
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+body{
+    background-color: #6f6f6f;
+}
+.connected {
+border: 0px solid #dddddd;
+text-align: center;
+padding: 20px;
 }
