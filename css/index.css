@@ -45,7 +45,7 @@ main{
 display: flex;
 }
 th, td{
-    border: 1px solid #dddddd;
+    border: 1px solid #bababa;
     text-align: center;
     padding: 20px;
 }
@@ -62,22 +62,33 @@ body{
 p, h3, h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.fotogalerie{
+.fotky {
+    display: flex;
+    margin-left: 30%;
+  }
   
-display: flex;
-margin-left: 30%;
-}
-.fotka img{
-width: 200px;
-height: auto;
-
-}
-.fotka{
+  .fotka  {
     border: 2px solid black;
     margin-left: 20px;
     width: 200px;
-    height: auto;
-}
+    height: 250px;      
+    overflow: hidden;
+  }
+  
+  .fotka img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  .fotka h2{
+    margin: 0px;
+    font-size: 20px;
+  }
+
+  article{
+    border: 2px solid black;
+    padding: 10px;
+  }
 footer{
     text-align: center;
     background-color: black;
@@ -87,4 +98,8 @@ footer{
     margin-bottom: -10px;
     padding: 40px;
 
+}
+h1{
+    font-size: 45px;
+    margin-bottom: 45px;
 }
